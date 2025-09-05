@@ -3,9 +3,9 @@ package ru.netology;
 import taxes.TaxSystem;
 
 public class Company {
-    String title;
-    int debit;
-    int credit;
+    protected String title;
+    protected int debit;
+    protected int credit;
     TaxSystem taxSystem;
 
 
