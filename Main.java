@@ -15,15 +15,9 @@ public class Main {
         });
 
         company1.shiftMoney(5000);
+        company1.shiftMoney(-2000);
 
         company1.payTaxes();
 
     }
 }
-//Deal[] deals = {
-//                new Sale("шлемофон", 3000),
-//                new Exspenditure("гарнитура", 2000),
-//                new Sale("балаклава", 200),
-//                new Exspenditure("перчатки", 400)};
-/*int balance = company1.applyDeals(new Deal[]{});
-        System.out.println(balance);*/
