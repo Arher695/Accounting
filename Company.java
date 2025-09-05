@@ -6,7 +6,7 @@ public class Company {
     protected String title;
     protected int debit;
     protected int credit;
-    TaxSystem taxSystem;
+    private TaxSystem taxSystem;
 
 
     public Company(String title, TaxSystem taxSystem) {
